@@ -1,0 +1,43 @@
+@import "../../colors";
+
+
+.form {
+    width: 30%;
+    // height: 50%;
+    padding: 1em;
+    background: white;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Добавление тени */
+
+    .formLabel {
+      margin-top: 1em;
+      display: block;
+      color: $text-color;
+    }
+  
+    .formInput {
+        display: block;
+        width: 95%;
+      margin-top: 0.5em;
+      padding: 0.5em;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+  
+    .formButtonAuth {
+        display: block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  
+      &:hover {
+        background: darkblue;
+      }
+    }
+  }
+  
